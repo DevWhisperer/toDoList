@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    background-image: url("image/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    background-color: white;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.task-area{
+    border: 1px solid lightgray;
+}
+.tabs{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+.tabs div {
+    padding: 1em;
+    cursor: pointer;
+}
+#under-line{
+    height: 4px;
+    background-color: pink;
+    position: absolute;
+    width: 60px;
+    left: 0px;
+    top: 56px;
+    padding: 0px;
+    transition: 0.5s;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.task-done{
+    text-decoration: line-through;
+}
+#add-button {
+    border-radius: 8px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    background-color: rgba(51, 51, 51, 0.05);
+}
